@@ -6,8 +6,9 @@ app = Flask(__name__)
 @app.route("/")
 def home():
     return """
-    <h1>🚀 Welcome to My Flask App!</h1>
-    <p>This app is running locally and will soon be deployed to Google Cloud Run.</p>
+    <h1>🚀 CI/CD TEST SUCCESS</h1>
+    <p>This update proves Cloud Build auto-deployment is working.</p>
+    <p>If you see this, GitHub → Cloud Build → Cloud Run is active.</p>
     """
 
 @app.route("/about")
